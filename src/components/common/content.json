@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_contents",
+  "info": {
+    "displayName": "Content"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "subdescription": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

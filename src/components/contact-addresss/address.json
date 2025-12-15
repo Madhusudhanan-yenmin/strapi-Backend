@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_addresss_addresses",
+  "info": {
+    "displayName": "Address"
+  },
+  "options": {},
+  "attributes": {
+    "Area": {
+      "type": "text"
+    },
+    "pincode": {
+      "type": "biginteger"
+    },
+    "contact_email": {
+      "type": "email"
+    }
+  },
+  "config": {}
+}
