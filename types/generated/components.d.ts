@@ -5,10 +5,7 @@ export interface CommonContent extends Struct.ComponentSchema {
   info: {
     displayName: 'Content';
   };
-  attributes: {
-    subdescription: Schema.Attribute.Text;
-    subtitle: Schema.Attribute.String;
-  };
+  attributes: {};
 }
 
 export interface ContactAddresssAddress extends Struct.ComponentSchema {
@@ -16,11 +13,7 @@ export interface ContactAddresssAddress extends Struct.ComponentSchema {
   info: {
     displayName: 'Address';
   };
-  attributes: {
-    Area: Schema.Attribute.Text;
-    contact_email: Schema.Attribute.Email;
-    pincode: Schema.Attribute.BigInteger;
-  };
+  attributes: {};
 }
 
 export interface LanguageLanguage extends Struct.ComponentSchema {
@@ -28,10 +21,7 @@ export interface LanguageLanguage extends Struct.ComponentSchema {
   info: {
     displayName: 'language';
   };
-  attributes: {
-    english: Schema.Attribute.Boolean;
-    tamil: Schema.Attribute.Boolean;
-  };
+  attributes: {};
 }
 
 declare module '@strapi/strapi' {

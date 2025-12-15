@@ -4,13 +4,6 @@
     "displayName": "language"
   },
   "options": {},
-  "attributes": {
-    "english": {
-      "type": "boolean"
-    },
-    "tamil": {
-      "type": "boolean"
-    }
-  },
+  "attributes": {},
   "config": {}
 }

@@ -1,0 +1,16 @@
+module.exports = ({ env }) => ({
+  connection: {
+    client: 'mysql',
+    connection: {
+      host: env('mysql-31639072-madhusudhanan-c6cf.h.aivencloud.com'),
+      port: env.int('17611', 3306),
+      database: env('defaultdb'),
+      user: env('avnadmin'),
+      password: env('AVNS_rQyQjHUyJD6r0uq0tmh'),
+      ssl: {
+        rejectUnauthorized: true,
+        ca: env('-----BEGIN CERTIFICATE-----MIIEUDCCArigAwIBAgIUVL5QXAE5k2HNJF6QZdY66UIeZ9swDQYJKoZIhvcNAQEMBQAwQDE+MDwGA1UEAww1MWM2MjQxYjItNTYyZi00N2RlLWJiOGMtOGM0N2I3Y2NmMjhjIEdFTiAxIFByb2plY3QgQ0EwHhcNMjUxMjE1MDg1NTAwWhcNMzUxMjEzMDg1NTAwWjBAMT4wPAYDVQQDDDUxYzYyNDFiMi01NjJmLTQ3ZGUtYmI4Yy04YzQ3YjdjY2YyOGMgR0VOIDEgUHJvamVjdCBDQTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMMU/TQtkrB5CvHKMDRM9UFizZ4tU+zWqpiJuKzfsNIRYDNnNs9K89VOfM3fW5USEWnJHgTICBL27WDldofyAXiy1Jl0NyEGaEUslWIfBWNJYwjtIYIGIhss1OdjajqqqtIhEwJG61itYDpMPx4GVSe0A3mRd+BUULTXrYDI7YraJmxu88uGtWvHRFopk76GjwkV3xcJqeEZ3axXXpO9Mh5InTJLX04isOSzOcgaCvucJZWKTljtoQ6VpcmJTKvtv+G3u6zT7KOnbxtSXae49uPrs5SueH+vwEecc/sT8OXODLnrO5PsOLTS1wYIrKnHixbar0OJmPsxVdWf7zpmbqoy4t6gEwuy/sOBxSVhDSTBT0DADLgf78Se8T+zdiona6+nYRuPWA4UEv4svacUYg+9gI6hGmeDYeBWQJBvhBMEFDuufV+FTQ/ONIrlQHpbo4RZls0PVZv301COEPYzwlMl+Jo8oQ3Ek9/K2iDMjIak+etnibRQiiIuBn5vLpIZ8QIDAQABo0IwQDAdBgNVHQ4EFgQUxp4vLS0QwFGJ74b3GOwnc03/ylEwEgYDVR0TAQH/BAgwBgEB/wIBADALBgNVHQ8EBAMCAQYwDQYJKoZIhvcNAQEMBQADggGBADPykvqbQHi6qZj9edm5J/P1PBrrXBrPgkgfpp+6epXSKvBm7Nmx1c7vG6xk/OBmPFHAXfWl0jOme86lTG8AzGJ7MBHoV1jzNux+AVEP0PC7VrzAkoXV/gje760+a34sSperNOf5Rk1b862BPpAIfamZF4d2BloXzIg/4HLDdbaZE61cSl4fszPKZEO047eyudzu1ObvVzJaGrwTTa+chjKtcMA1GpDfpCAvrq/P5ZB17Z4sRraUJXyc6EdC8IWdMJcPPDPcHF6wuLFGG7DFVPac4hLsrvrZK7Zwuqh3vykEfXnDgNSzxmJPqL6qE2dHOqxwEq5LPn1QLGa0aH/qS9WMbL2qvfbGMHZ+VoXRJKlLSnAwczh8AeYNAF9SbXnnmg8vmWff8KeCD/PHzSfM1XLUNEovXMZj20oxh81oGJbio6LUREf49GgIFS+Bbuh+LX97NbiXQ31+vmXNQqrIh6IcsEz/DaHlRJTbRHoiOV8kS3KiEq4lvY94+yq2wPoFpg==-----END CERTIFICATE-----'),
+      },
+    },
+  },
+});
