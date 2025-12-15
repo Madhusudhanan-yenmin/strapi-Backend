@@ -4,16 +4,6 @@
     "displayName": "Address"
   },
   "options": {},
-  "attributes": {
-    "Area": {
-      "type": "text"
-    },
-    "pincode": {
-      "type": "biginteger"
-    },
-    "contact_email": {
-      "type": "email"
-    }
-  },
+  "attributes": {},
   "config": {}
 }

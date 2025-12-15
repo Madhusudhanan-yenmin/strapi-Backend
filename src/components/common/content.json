@@ -4,13 +4,6 @@
     "displayName": "Content"
   },
   "options": {},
-  "attributes": {
-    "subtitle": {
-      "type": "string"
-    },
-    "subdescription": {
-      "type": "text"
-    }
-  },
+  "attributes": {},
   "config": {}
 }
